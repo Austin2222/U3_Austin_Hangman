@@ -1,0 +1,15 @@
+﻿<Window x:Class="U3_Austin_Sum.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:U3_Austin_Sum"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <TextBox x:Name="txtboxGuessLetter" Height="28"/>
+        <Button x:Name="btnCheck" Content="Check Letter" Click="btnCheck_Click" Height="26"/>
+        <TextBlock x:Name="lblWord" Height="100" Padding="10" Margin="10 "/>
+        <Label x:Name="lblUsed" Content=" "/>
+    </StackPanel>
+</Window>
